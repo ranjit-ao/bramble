@@ -1,7 +1,14 @@
+a {
+  color: #5e9bff;
+}
+a:visited {
+  color: #795eff;
+}
+
 .header {
   text-align: left;
   color: lightgray;
-  font-size: 3rem;
+  font-size: 3vw;
   font-weight: 100;
 }
 
@@ -9,6 +16,7 @@
   margin: 40px;
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 body {
@@ -40,6 +48,18 @@ body {
   -o-background-size: cover;
   min-height: 100%;
   position: relative;
+}
+
+.footertitle {
+  color: lightgray;
+  text-align: left;
+  font-size: 2rem;
+}
+
+.footerinfo {
+  color: white;
+  background-color: rgba(0,0,0,1);
+  padding: 1px;
 }
 
 #infotext {
